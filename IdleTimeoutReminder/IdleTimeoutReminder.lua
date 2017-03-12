@@ -50,7 +50,7 @@ end
 -- Function to check and handle player idle state
 local x_old, y_old, h_old = GetMapPlayerPosition("player")
 local function IdleCheck()
-	local function IsPlayeIdle()
+	local function IsPlayerIdle()
 		-- Check if in combat
 		if IsUnitInCombat("player") then return false end
 		-- Compareing current plosition and heading with data of last run
@@ -63,7 +63,7 @@ local function IdleCheck()
 		end
 	end
 	
-	if not IsPlayeIdle() then
+	if not IsPlayerIdle() then
 		EVENT_MANAGER:UnregisterForUpdate(AddonName)
 		isTimerRunning = false
 	elseif not isTimerRunning then
