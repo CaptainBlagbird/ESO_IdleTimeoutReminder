@@ -1,7 +1,7 @@
 ## Title: Idle Timeout Reminder |c555555v1.0|r
 ## Version: 1.0
 ## Author: |c70C0DECaptainBlagbird|r
-## APIVersion: 100017
+## APIVersion: 100018
 ## Description: Adds a notification shortly before the player would be kicked because of inactivity
 ## OptionalDependsOn: LibNotifications
 
