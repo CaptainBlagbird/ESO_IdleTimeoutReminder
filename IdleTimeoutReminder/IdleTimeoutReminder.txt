@@ -3,11 +3,7 @@
 ## Author: |c70C0DECaptainBlagbird|r
 ## APIVersion: 100025
 ## Description: Adds a notification shortly before the player would be kicked because of inactivity
-## OptionalDependsOn: LibNotifications
-
-; Libraries
-libs/LibStub.lua
-libs/LibNotification.lua
+## DependsOn: LibStub LibNotification
 
 ; Main
 Config.lua
